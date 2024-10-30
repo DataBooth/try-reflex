@@ -1,0 +1,17 @@
+[project]
+name = "try-reflex"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Michael Booth", email = "michael@databooth.com.au"},
+]
+dependencies = [
+    "reflex>=0.6.4",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "Apache 2.0"}
+
+
+[tool.pdm]
+distribution = false
